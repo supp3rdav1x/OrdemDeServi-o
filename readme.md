@@ -14,5 +14,5 @@
 * Só o gestor pode ter acesso ao relatorio de serviço
 
 ### Relatório
-[] Criar páginas
-[] Formatar páginas
+[x] Criar páginas
+[ ] Formatar páginas
