@@ -14,5 +14,5 @@
 * Só o gestor pode ter acesso ao relatorio de serviço
 
 ### Relatório
-Criar páginas - Feito
-Formatar páginas - Feito
+Criar páginas - Feito <br>
+Formatar páginas - Feito <br>
