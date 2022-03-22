@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Tela de Login</title>
 </head>
+
 <body>
-	<header>
-		<h1>Home</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><p><a href="index.html"><b>Home</b></a></p></li>
-			<li><p><a href="cadcli.html">Cadastro de Clientes</a></p></li>
-			<li><p><a href="cados.html">Cadastro de O.S.</a></p></li>
-			<li><p><a href="caduse.html">Cadastro de Usuário</a></p></li>
-			<li><p><a href="principal.html">Principal</a></p></li>
-		</ul>
-	</nav>
+    <!--cabeçalho-->
+    <header>
+        <h1 align="center">System OS</h1>
+    </header>
 
-	<section>
-		<h2>System OS</h2>
-		<h3>Bem Vindo!</h3>
-	</section>
+    <!--corpo-->
+    <a href="cadastroCli.html">cadastroCli</a>
 
-	
+    <section>
+        <h2>Bem vindo!</h2>
+        <p>Digite seu Login e senha para ir para a tela principal</p>
+    </section>
 
-	<footer>
-		<p>Lorem ipsum dolor sit amet.</p>
-	</footer>
+    <br>
+
+    <!--formulario-->
+    <div id="area">
+        <form id="formulario" name="cadastroUsuario" action="" method="" autocomplete="off">
+            <fieldset>
+                <legend id="login_legend">Login</legend>
+                <label>Email:</label><input class="campo_nome" type="text"><br>
+                <label>Senha:</label><input class="campo_email" type="password"><br>
+                <input class="btn_submit" type="submit" value="Enviar">
+                <img src="" alt="">
+            </fieldset>
+        </form>
+    </div>
+
+    <!--rodapé-->
+    <footer>
+        <p></p>
+        <!-- <p align="center">feito por Victor Hugo</p> -->
+    </footer>
+
 </body>
+
 </html>
