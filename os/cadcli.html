@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CadCli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de Cliente</title>
 </head>
+
 <body>
-	<header>
-		<h1>Cadastro de Clientes</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><p><a href="index.html">Home</a></p></li>
-			<li><p><a href="cadcli.html"><b>Cadastro de Clientes</b></a></p></li>
-			<li><p><a href="cados.html">Cadastro de O.S.</a></p></li>
-			<li><p><a href="caduse.html">Cadastro de Usuário</a></p></li>
-			<li><p><a href="principal.html">Principal</a></p></li>
-		</ul>
-	</nav>
+    <!--cabeçalho-->
+    <header>
+        <h1 align="center">Cadastro de Cliente</h1>
+    </header>
+    <!--corpo-->
+    <section>
+        <h2>Bem vindo</h2>
+        <a href="principal.html">Voltar</a>
+    </section>
 
-	<section>
-		<h2>System OS</h2>
-	</section>
+    <br>
+    <!--formulario-->
+    <div class="area">
+        <form id="formulario" name="cadastroUsuario" action="" method="" autocomplete="off">
+            <fieldset>
+                <legend id="login_legend">Formulario</legend>
+                <label>Nome:</label><input class="campo_nome" type="text"><br>
+                <label>Endereco:</label><input class="campo_endereco" type="password"><br>
+                <label>Fone:</label><input class="campo_fone" type="password"><br>
+                <label>Email:</label><input class="campo_email" type="password"><br>
 
-	<footer>
-		<p>Lorem ipsum dolor sit amet.</p>
-	</footer>
+                <br>
+
+                <input class="btn_submit" type="submit" value="Cadastrar">
+                <input class="btn_reset" type="reset" value="Limpar">
+                <button><a href="php/concadcli.php">consultar</a></button>
+                <img src="" alt="">
+            </fieldset>
+        </form>
+    </div>
+    
+    <footer>
+    </footer>
+
 </body>
+
 </html>

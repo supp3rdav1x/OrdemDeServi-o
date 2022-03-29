@@ -3,7 +3,7 @@
 * {
     text-decoration: none;
     border-style: none;
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 
@@ -16,12 +16,52 @@
 }
 
 body {
+    background-color: var(--offwhite);
     font-family: 'Space Grotesk', sans-serif;
     text-align: justify;
-    padding-right: 25ch;
-    padding-left: 25ch;
+    
+    padding-right: 20ch;
+    padding-left: 20ch;
+	margin-left: 25%;
+	margin-right: 25%;
+	justify-content: center;
 }
 
-a {
-    text-decoration: none;
+#area {
+    padding: 10%;
+    background-color: var(--lgrey);
+}
+
+#login_legend {
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+
+.label_login {
+    font-size: 18px;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.campo_email, .campo_senha {
+    height: 18px;
+    width: 15rem;
+    margin-bottom: 0.5%;
+}
+
+.btn_submit {
+    width: 50%;
+    height: 30px;
+    margin-top: 3%;
+    outline: none;
+    background-color: #EB5E28;
+
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    color: var(--offwhite);
+
+}
+
+#logo_login {
+    width: 75px;
 }
